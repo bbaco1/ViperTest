@@ -25,7 +25,7 @@
 }
 
 - (void)firstView:(FirstView *)view buttonTouched:(UIButton *)button {
-    self.view.resultLabel.text = [NSString stringWithFormat:@"%@", [self.interactor getRequiredTextForLabelFromTag:button.tag]];
+    self.view.resultLabel.text = [self.interactor getRequiredTextForLabelFromTag:button.tag];
 }
 
 @end
