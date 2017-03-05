@@ -20,8 +20,8 @@
     return self;
 }
 
-- (void)setDelegate {
-    self.view.delegate = self;
+- (void)setDelegate:(FirstView *)view {
+    view.delegate = self;
 }
 
 - (void)firstView:(FirstView *)view buttonTouched:(UIButton *)button {

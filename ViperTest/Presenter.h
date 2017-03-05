@@ -13,8 +13,7 @@
 @interface Presenter : NSObject <FirstViewDelegate>
 
 @property (strong, nonatomic) Interactor *interactor;
-@property (strong, nonatomic) FirstView *view;
 
-- (void)setDelegate;
+- (void)setDelegate:(FirstView *)view;
 
 @end

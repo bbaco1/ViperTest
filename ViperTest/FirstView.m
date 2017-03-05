@@ -18,8 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.presenter = [[Presenter alloc] init];
-    self.presenter.view = self;
-    [self.presenter setDelegate];
+    [self.presenter setDelegate:self];
 }
 
 - (IBAction)buttonTuched:(UIButton *)sender {
