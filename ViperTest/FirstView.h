@@ -14,6 +14,7 @@
 @protocol FirstViewDelegate <NSObject>
 
 - (void)firstView:(FirstView *)view buttonTouched:(UIButton *)button;
+- (void)viewController:(FirstView *)firstView presentViewControllerWithStortyboardID:(NSString *)storyBoardID;
 
 @end
 
@@ -24,6 +25,7 @@
 @property (weak, nonatomic) id <FirstViewDelegate>delegate;
 
 - (IBAction)buttonTuched:(UIButton *)sender;
+- (IBAction)presentNewViewControllerButtonTouched:(UIButton *)sender;
 
 @end
 

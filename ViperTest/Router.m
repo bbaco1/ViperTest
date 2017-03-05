@@ -7,9 +7,15 @@
 //
 
 #import "Router.h"
+#import "SecondViewController.h"
 
 @implementation Router
 
-
+- (void)presentViewControllerWithStoryboardID:(NSString *)storyboardID fromViewController:(UIViewController *)presentingViewController {
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+     UIViewController *secondVC = [mainStoryboard instantiateViewControllerWithIdentifier:storyboardID];
+    
+    [presentingViewController presentViewController:secondVC animated:YES completion:nil];
+}
 
 @end

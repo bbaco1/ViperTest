@@ -19,6 +19,7 @@
 		AC2765611E6B31750019313B /* Interactor.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2765601E6B31750019313B /* Interactor.m */; };
 		AC2765641E6B31830019313B /* Router.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2765631E6B31830019313B /* Router.m */; };
 		AC2765671E6B31940019313B /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2765661E6B31940019313B /* Entity.m */; };
+		AC27656A1E6C60E20019313B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2765691E6C60E20019313B /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		AC2765631E6B31830019313B /* Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Router.m; sourceTree = "<group>"; };
 		AC2765651E6B31940019313B /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
 		AC2765661E6B31940019313B /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
+		AC2765681E6C60E20019313B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AC2765691E6C60E20019313B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				AC2765631E6B31830019313B /* Router.m */,
 				AC2765651E6B31940019313B /* Entity.h */,
 				AC2765661E6B31940019313B /* Entity.m */,
+				AC2765681E6C60E20019313B /* SecondViewController.h */,
+				AC2765691E6C60E20019313B /* SecondViewController.m */,
 				AC2765321E6B31540019313B /* Main.storyboard */,
 				AC2765351E6B31540019313B /* Assets.xcassets */,
 				AC2765371E6B31540019313B /* LaunchScreen.storyboard */,
@@ -297,6 +302,7 @@
 				AC2765311E6B31540019313B /* FirstView.m in Sources */,
 				AC2765611E6B31750019313B /* Interactor.m in Sources */,
 				AC27652E1E6B31540019313B /* AppDelegate.m in Sources */,
+				AC27656A1E6C60E20019313B /* SecondViewController.m in Sources */,
 				AC27655E1E6B31680019313B /* Presenter.m in Sources */,
 				AC2765641E6B31830019313B /* Router.m in Sources */,
 				AC27652B1E6B31540019313B /* main.m in Sources */,

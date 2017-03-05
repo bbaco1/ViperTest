@@ -25,4 +25,8 @@
     [self.delegate firstView:self buttonTouched:sender];
 }
 
+- (IBAction)presentNewViewControllerButtonTouched:(UIButton *)sender {
+    [self.delegate viewController:self presentViewControllerWithStortyboardID:sender.accessibilityIdentifier];
+}
+
 @end
