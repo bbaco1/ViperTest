@@ -92,7 +92,20 @@
                     <view key="view" contentMode="scaleToFill" id="2Ls-ST-jZA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTc-Bs-51h">
+                                <rect key="frame" x="164" y="75" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="dissmisViewControllerButtonTouched:" destination="ecI-lM-m7u" eventType="touchUpInside" id="6W8-PB-7G9"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.93725490570000003" green="0.25098040700000002" blue="0.34901961679999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="XTc-Bs-51h" firstAttribute="centerX" secondItem="2Ls-ST-jZA" secondAttribute="centerX" id="8th-ED-Xsh"/>
+                            <constraint firstItem="XTc-Bs-51h" firstAttribute="top" secondItem="6qu-vK-YmM" secondAttribute="bottom" constant="55" id="Sa9-6D-jAR"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Yb-pr-WfV" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -12,5 +12,6 @@
 @interface Router : NSObject
 
 - (void)presentViewControllerWithStoryboardID:(NSString *)storyboardID fromViewController:(UIViewController *)presentingViewController;
+- (void)dissmisCurrentViewController:(UIViewController *)currentViewController;
 
 @end

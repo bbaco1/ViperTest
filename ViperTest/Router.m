@@ -16,4 +16,8 @@
     [presentingViewController presentViewController:secondVC animated:YES completion:nil];
 }
 
+- (void)dissmisCurrentViewController:(UIViewController *)currentViewController {
+    [currentViewController dismissViewControllerAnimated:YES completion:nil];
+}
+
 @end
