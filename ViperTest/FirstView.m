@@ -22,11 +22,8 @@
     [self.presenter setDelegate];
 }
 
-- (IBAction)buttonOneTouched:(UIButton *)sender {
+- (IBAction)buttonTuched:(UIButton *)sender {
     [self.delegate firstView:self buttonTouched:sender];
 }
 
-- (IBAction)buttonTwoTouched:(UIButton *)sender {
-    [self.delegate firstView:self buttonTouched:sender];
-}
 @end

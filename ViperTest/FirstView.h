@@ -23,8 +23,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *resultLabel;
 @property (weak, nonatomic) id <FirstViewDelegate>delegate;
 
-- (IBAction)buttonOneTouched:(UIButton *)sender;
-- (IBAction)buttonTwoTouched:(UIButton *)sender;
+- (IBAction)buttonTuched:(UIButton *)sender;
 
 @end
 

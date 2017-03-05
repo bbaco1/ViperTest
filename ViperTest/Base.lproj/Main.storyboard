@@ -32,14 +32,14 @@
                                 <rect key="frame" x="272" y="120" width="30" height="30"/>
                                 <state key="normal" title="2"/>
                                 <connections>
-                                    <action selector="buttonTwoTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nea-fD-34x"/>
+                                    <action selector="buttonTuched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w4D-iX-ZW7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Wm-1I-BCF">
                                 <rect key="frame" x="87" y="120" width="30" height="30"/>
                                 <state key="normal" title="1"/>
                                 <connections>
-                                    <action selector="buttonOneTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hyR-XC-Sdz"/>
+                                    <action selector="buttonTuched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lvZ-tZ-JUL"/>
                                 </connections>
                             </button>
                         </subviews>
