@@ -10,6 +10,6 @@
 
 @interface Interactor : NSObject
 
-- (NSString *)getRequiredTextForLabelFromTag:(float)tag;
+- (NSString *)getRequiredTextForLabelFromTag:(long)tag;
 
 @end

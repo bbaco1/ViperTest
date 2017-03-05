@@ -10,7 +10,7 @@
 
 @implementation Interactor
 
-- (NSString *)getRequiredTextForLabelFromTag:(float)tag {
+- (NSString *)getRequiredTextForLabelFromTag:(long)tag {
     if (tag == 0) {
         return @"One";
     }
